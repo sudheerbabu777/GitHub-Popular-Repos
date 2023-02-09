@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.app-container {
+  margin: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-family: 'Lobster';
+  font-size: 36px;
+  font-weight: 800px;
+  color: #0f172a;
+  margin-top: 0px;
+}
+
+.item-language {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-image {
+  width: 650px;
+  height: 450px;
+}
+
+.something {
+  font-family: 'Lobster';
+  font-size: 64px;
+  font-weight: 800px;
+  color: #0f172a;
+}

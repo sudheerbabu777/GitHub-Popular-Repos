@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.item-container {
+  padding: 30px;
+  background-color: #f8f8ff;
+  margin: 12px;
+  width: 250px;
+  border-radius: 12px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.avatar-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+}
+
+.problems-container {
+  display: flex;
+  align-items: center;
+}
+
+.forks-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.stat-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.issues-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  color: #e73959;
+}
+
+.start {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 6px;
+}
+
+.forks {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 6px;
+}
+
+.issues {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 6px;
+}
